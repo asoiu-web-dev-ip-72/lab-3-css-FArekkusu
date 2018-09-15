@@ -1,0 +1,127 @@
+﻿.header {
+	width: 100%;
+	background-color: #444;
+}
+
+h1 {
+	margin: 0;
+	padding: 5px 0;
+	color: white;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.shortcuts {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: #444;
+}
+
+.shortcuts li {
+	float: left;
+}
+
+.shortcuts li a {
+	color: white;
+	background-color: #444;
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.shortcuts li a:hover {
+	color: black;
+	background-color: #EEE;
+}
+
+.return {
+	position: fixed;
+	bottom: 5px;
+	right: 0;
+	height: 30px;
+	background-color: #444;
+}
+
+.return a {
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+}
+
+.return:hover {
+	background-color: #EEE;
+}
+
+.return:hover a {
+	color: black;
+}
+
+.paragraph-info {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 33%;
+}
+
+.paragraph-info h3 {
+	width: 100%;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	font-size: 20px;
+}
+
+.list-1 {
+	list-style-type: decimal-leading-zero;
+}
+
+.list-2 {
+	list-style-type: square;
+}
+
+.list-1 li, .list-2 li {
+	font-size: 20px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+	background-color: #FF8F80;
+}
+
+tr:nth-child(odd) {
+	background-color: #FCC;
+}
+
+th, td {
+	min-width: 150px;
+	font-size: 20px;
+}
+
+th {
+	background-color: #777;
+	color: #FFF;
+	font-size: 22px;
+}
+
+table, td, th {
+	border: 1px solid black;
+}
+
+img {
+	display: block;
+	margin: auto;
+}

@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Main page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style>
+			h1 {
+				font-size: 350%;
+			}
+
+			h2 {
+				color: #2EB82E;
+				font-size: 200%;
+			}
+
+			h3 {
+				font-size: 150%;
+			}
+
+			.shortcuts li a {
+				font-family: "Impact";
+				letter-spacing: 1px;
+			}
+
+			.paragraph-info {
+				border-left: 2px dashed #00F;
+				border-right: 2px dashed #00F;
+			}
+
+			.paragraph-info h3 {
+				color: #09F;
+			}
+
+			h3.list-1, h3.list-2 {
+				color: #E67300;
+			}
+
+			th {
+				font-family: "Courier New";
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1 id="top">Very important heading</h1>
+			<ul class="shortcuts">
+				<li><a href="#paragraphs">Paragraphs</a></li>
+				<li><a href="#lists">Lists</a></li>
+				<li><a href="#table">Table</a></li>
+				<li><a href="#image">Image</a></li>
+			</ul>
+		</div>
+		
+		<div class="row">
+			<h2 id="paragraphs">Paragraphs</h2>
+			<div class="paragraph-info">
+				<h3>Project information</h3>
+				<p>
+					Text. <span style="font-weight: bold">Text. Text. Text. Text. Text.</span> Text. Text. 
+					Text. <span style="font-family: Arial;">Text. Text. Text</span>. Text. Text. Text. Text. 
+					<span style="background-color: #A8C25E">Text. Text. Text. Text.</span> Text. Text. Text. Text.
+				</p>
+			</div>
+			<div class="paragraph-info">
+				<h3>Project information</h3>
+				<p>
+					<span style="font-variant: small-caps">Text. Text. Text. Text. Text. Text.</span> Text. Text. 
+					Text. <span style="font-style: italic">Text. Text. Text. Text. Text. Text.</span> Text. 
+					Text. Text. Text. <span style="color: #F00">Text. Text. Text. Text. Text. Text. Text.</span>
+				</p>
+			</div>
+			<div class="paragraph-info">
+				<h3>Project information</h3>
+				<p>
+					Text. Text. Text. Text. Text. <span style="font-style: italic">Text. Text. Text.</span> 
+					Text. Text. Text. <span style="font-weight: bold">Text. Text.</span> Text. <span style="text-decoration: line-through">Text. Text. 
+					Text. Text. Text.</span> Text. Text. Text. Text. Text.
+				</p>
+			</div>
+		</div>
+
+		<hr>
+
+		<h2 id="lists">Lists</h2>
+		<h3 class="list-1">Long-standing list of...</h3>
+		<ol class="list-1">
+			<li><span style="color: #F00">Issue</span>: ...</li>
+			<li><span style="color: #F00">Issue</span>: ...</li>
+			<li><span style="color: #00B300">Suggestion</span>: ...</li>
+			<li><span style="color: #F00">Issue</span>: ...</li>
+			<li><span style="color: #00B300">Suggestion</span>: ...</li>
+			<li><span style="color: #C69">Request</span>: ...</li>
+			<li><span style="color: #F00">Issue</span>: ...</li>
+		</ol>
+		<br>
+		<h3 class="list-2">Contibutions</h3>
+		<ul class="list-2">
+			<li>Section A (1)</li>
+			<li>Section B (1)</li>
+			<li>Section C (1)</li>
+			<li>Section B (2)</li>
+			<li>Section D (1)</li>
+			<li>Section D (2)</li>
+		</ul>
+
+		<hr>
+
+		<h2 id="table">Top contributors</h2>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Contributions</th>
+				<th>Issues raised</th>
+			</tr>
+
+			<tr>
+				<td>John D.</td>
+				<td>39</td>
+				<td>18</td>
+			</tr>
+
+			<tr>
+				<td>Liz K.</td>
+				<td>33</td>
+				<td>10</td>
+			</tr>
+
+			<tr>
+				<td>Samuel V.</td>
+				<td>28</td>
+				<td>4</td>
+			</tr>
+
+			<tr>
+				<td>Richard N.</td>
+				<td>26</td>
+				<td>21</td>
+			</tr>
+		</table>
+
+		<hr>
+
+		<h2 id="image">Image</h2>
+		<img src="signs.png" usemap="#signs"/>
+		<map name="signs">
+			<area shape="rect" coords="130, 10, 410, 115" href="page_2.html"/>
+			<area shape="rect" coords="10, 140, 280, 245" href="page_3.html"/>
+			<area shape="rect" coords="130, 275, 410, 380" href="page_4.html"/>
+			<area shape="rect" coords="10, 410, 280, 520" href="page_5.html"/>
+		</map>
+
+		<div class="return">
+			<a href="#top">Return to top</a>
+		</div>
+	</body>
+</html>
